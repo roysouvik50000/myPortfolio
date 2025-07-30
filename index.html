@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Souvik_Roy.dev</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./images/web_craft-logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</head>
+
+<body>
+    <div id="typingContainer" class="center-screen">
+        <span id="typingText"></span><span class="cursor">|</span>
+    </div>
+    <header>
+        <nav id="top-navbar">
+            <div class="logo">Souvik_Roy<span>.dev</span></div>
+            <div class="navbar">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#skils">Skils</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#about">About Me</a></li>
+                </ul>
+            </div>
+            <button type="button" class="primary-btn"><a href="#contact-Us">Contact Us</a></button>
+        </nav>
+        <nav class="animation-nav" id="navbar">
+            <div class="logo">Souvik_Roy<span>.dev</span></div>
+            <div class="navbar">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#skils">Skils</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#about">About Me</a></li>
+                </ul>
+            </div>
+            <button type="button" class="primary-btn"><a href="#contact-Us">Contact Us</a></button>
+        </nav>
+    </header>
+    <div class="resume" id="resume">
+        <div>
+            <button type="button" id="cls-resume" onclick="clsResume()"> Back To Website</button>
+        </div>
+        <embed src="./images/Souvik Roy.pdf" height="750px" width="100%" type="application/pdf">
+    </div>
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="home">
+                <div class="left">
+                    <div class="typing" id="typeWriter"></div>
+                    <h1>
+                        I`m <span>Souvik Roy,</span><br>
+                        Frontend Web Devolaper <br>
+                        from Kolkata <span>.</span>
+                    </h1>
+                    <p>
+                        Frontend developer with experience in building user-friendly web applications, using ReactJs , Redux , Firebase , 
+                        Teilwind CSS etc. .
+                    </p>
+                    <div class="home-btn">
+                        <button type="button" id="show-resume" onclick="showResume()">View Resume</button>
+                    </div>
+                </div>
+                <div class="right">
+                    <img src="./images/souvik_port1.png"  alt="souvik-img">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="skils" id="skils" data-aos="fade-up" data-aos-duration="2000">
+        <div class="container">
+            <h1>
+                Skils
+            </h1>
+            <div class="allSkils">
+                <div class="top">
+                    <h2>Frontend</h2>
+                    <div class="cards">
+                        <div class="card">
+                            <img src="./images/square-js-brands.svg" alt="js-icon">
+                            <p>JS</p>
+                        </div>
+                        <div class="card">
+                            <img src="./images/react-brands.svg" alt="react-icon">
+                            <p>ReactJs</p>
+                        </div>
+                        <div class="card">
+                            <img src="./images/redux-svgrepo-com.svg" alt="redux-icon">
+                            <p>Redux</p>
+                        </div>
+                        <div class="card">
+                            <img src="./images/html5-brands.svg" alt="redux-icon">
+                            <p>HTML5</p>
+                        </div>
+                        <div class="card">
+                            <img src="./images/css3-alt-brands.svg" alt="css5-icon">
+                            <p>CSS5</p>
+                        </div>
+                        <div class="card">
+                            <img src="./images/tailwind-css-svgrepo-com.svg" alt="Teilwind-icon">
+                            <p>Tailwind CSS</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mid">
+                    <h2>Backend</h2>
+                    <div class="cards">
+                        <div class="card">
+                            <img src="./images/firebase-svgrepo-com.svg" alt="firebase-icon">
+                            <p>Firebase</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <h2>Other</h2>
+                    <div class="cards">
+                        <div class="card">
+                            <img src="./images/git-svgrepo-com.svg" alt="git-icon">
+                            <p>GIT</p>
+                        </div>
+                        <div class="card">
+                            <img src="./images/github-svgrepo-com.svg" alt="github-icon">
+                            <p>GitHub</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="projects" id="projects" data-aos="fade-up" data-aos-duration="2000">
+        <div class="container">
+            <h1>Projects</h1>
+            <div class="allProjects">
+                <div class="project-card">
+                    <h2>
+                        E-commerce web-app
+                    </h2>
+                    <p>
+                        Built a React-based e-commerce site with product browsing, cart management, and user
+                        authentication using Context API and localStorage. Used Redux for cart state, styled with
+                        Tailwind CSS, and added a search feature for better UX.
+                    </p>
+                    <div class="tools">
+                        <div class="tool">ReactJs</div>
+                        <div class="tool">Redux</div>
+                        <div class="tool">Tailwind CSS</div>
+                        <div class="tool">Firebase</div>
+                        <div class="tool">gh pages</div>
+                        <div class="tool">more...</div>
+                    </div>
+                    <div class="project-link">
+                        <p>visit :-
+                            <link rel="stylesheet" href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Facilis explicabo quia impedit?
+                        </p>
+                        <p>Code:-
+                            <link rel="stylesheet" href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Facilis explicabo quia impedit?
+                        </p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h2>
+                        E-commerce web-app
+                    </h2>
+                    <p>
+                        Built a React-based e-commerce site with product browsing, cart management, and user
+                        authentication using Context API and localStorage. Used Redux for cart state, styled with
+                        Tailwind CSS, and added a search feature for better UX.
+                    </p>
+                    <div class="tools">
+                        <div class="tool">ReactJs</div>
+                        <div class="tool">Redux</div>
+                        <div class="tool">Tailwind CSS</div>
+                        <div class="tool">Firebase</div>
+                        <div class="tool">gh pages</div>
+                        <div class="tool">more...</div>
+                    </div>
+                    <div class="project-link">
+                        <p>visit :-
+                            <link rel="stylesheet" href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Facilis explicabo quia impedit?
+                        </p>
+                        <p>Code:-
+                            <link rel="stylesheet" href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Facilis explicabo quia impedit?
+                        </p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h2>
+                        E-commerce web-app
+                    </h2>
+                    <p>
+                        Built a React-based e-commerce site with product browsing, cart management, and user
+                        authentication using Context API and localStorage. Used Redux for cart state, styled with
+                        Tailwind CSS, and added a search feature for better UX.
+                    </p>
+                    <div class="tools">
+                        <div class="tool">ReactJs</div>
+                        <div class="tool">Redux</div>
+                        <div class="tool">Tailwind CSS</div>
+                        <div class="tool">Firebase</div>
+                        <div class="tool">gh pages</div>
+                        <div class="tool">more...</div>
+                    </div>
+                    <div class="project-link">
+                        <p>visit :-
+                            <link rel="stylesheet" href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Facilis explicabo quia impedit?
+                        </p>
+                        <p>Code:-
+                            <link rel="stylesheet" href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Facilis explicabo quia impedit?
+                        </p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h2>
+                        E-commerce web-app
+                    </h2>
+                    <p>
+                        Built a React-based e-commerce site with product browsing, cart management, and user
+                        authentication using Context API and localStorage. Used Redux for cart state, styled with
+                        Tailwind CSS, and added a search feature for better UX.
+                    </p>
+                    <div class="tools">
+                        <div class="tool">ReactJs</div>
+                        <div class="tool">Redux</div>
+                        <div class="tool">Tailwind CSS</div>
+                        <div class="tool">Firebase</div>
+                        <div class="tool">gh pages</div>
+                        <div class="tool">more...</div>
+                    </div>
+                    <div class="project-link">
+                        <p>visit :-
+                            <link rel="stylesheet" href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Facilis explicabo quia impedit?
+                        </p>
+                        <p>Code:-
+                            <link rel="stylesheet" href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Facilis explicabo quia impedit?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about" data-aos="fade-up" data-aos-duration="1500">
+        <div class="container">
+            <h1>About <span>Me</span></h1>
+            <div class="about-me-body">
+                <h2>
+                    I am a React.js developer with hands-on experience in front-end technologies such as JavaScript
+                    (ES6+),<br>
+                    HTML5, CSS3, and modern React features including Hooks, Context API, and React Router. <br>I have
+                    worked
+                    on building dynamic and responsive web applications using Firebase <br> and efficient state
+                    management
+                    solutions like Redux.
+                </h2>
+                <div class="bottom">
+                    <div>
+                        <h2>
+                            💻 Experience
+                        </h2>
+                        <p>
+                        <h3>Frontend Web development training and <br> internship - </h3>
+                        <h4>Weavers Web Academy (in association with
+                            Weavers Web Solutions) [2024 - Present] </h4>
+                        Completed offline training and internship in React.js and related front-end technologies,
+                        gaining hands-on experience by building multiple projects and contributing to live
+                        applications.
+                        </p>
+                    </div>
+                    <div>
+                        <h2>
+                            🎓 Education
+                        </h2>
+                        <p>
+                        <h3>BACHELOR OF SCIENCE(Physics, Computer science, Mathematics) - </h3>
+                        <h4>Vidyasagar University </h4>
+                        (Completed in 2019) <br>
+                        <h3>Higher Secondary Education - </h3>
+                        <h4> West Bengal Board of Higher Secondary Education </h4>
+                        (Completed in 2016) <br>
+                        <h3>Secondary Education - </h3>
+                        <h4>West Bengal Board of Secondary Education </h4>
+                        (Completed in 2014)
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-Us" id="contact-Us">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <div>
+
+
+                <div class="left">
+                    <h2><span>let's Talk for</span> Your <br> Next Projects </h2>
+                    <div class="contact-details">
+                        <div>
+                            <div>
+
+                                <img src="./images/phone-call-svgrepo-com.svg" width="25px" alt="call-icon">
+                            </div>
+                            <p>+91-97342-64466</p>
+                        </div>
+                        <div>
+                            <div>
+
+                                <img src="./images/email-svgrepo-com.svg" width="25px" alt="call-icon">
+                            </div>
+                            <p>roysouvik500@gmail.com</p>
+                        </div>
+                        <div>
+                            <div>
+
+                                <img src="./images/location-pin-alt-svgrepo-com.svg" width="25px" alt="call-icon">
+                            </div>
+                            <p> Kolkata , West Bengal</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <form>
+                        <div>
+                            <label for="name">Name :-</label><br>
+                            <input type="text" name="name" id="name" placeholder="Enter your name..">
+                        </div>
+                        <br>
+                        <div>
+                            <label for="email">Email :-</label><br>
+                            <input type="text" name="email" id="email" placeholder="Enter your email..">
+                        </div>
+                        <br>
+                        <div>
+                            <label for="message">Your Message :-</label><br>
+                            <textarea name="message" id="message" cols="30" rows="5"
+                                placeholder="Enter your message..."></textarea>
+                        </div>
+                        <div class="home-btn">
+
+                            <button type="submit">SUBMIT</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <h1>
+            This page is Created by &#169Souvik_Roy
+        </h1>
+    </footer>
+
+
+
+
+    <script src="./script.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
