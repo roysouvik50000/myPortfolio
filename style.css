@@ -417,8 +417,10 @@ nav .primary-btn:hover {
     color: var(--bg-light);
     padding: 15px 12px;
     border-radius: 12px;
+    min-height: 320px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     gap: 10px;
     width: 45%;
