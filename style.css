@@ -454,6 +454,14 @@ nav .primary-btn:hover {
     }
 }
 
+.projects .container .allProjects .project-card .project-link a{
+    color: rgb(255, 255, 255);
+}
+
+.projects .container .allProjects .project-card .project-link p{
+    margin-bottom: 10px;
+}
+
 .projects .container .allProjects .project-card .tools {
     display: flex;
     gap: 10px;
