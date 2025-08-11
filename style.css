@@ -566,7 +566,7 @@ nav .primary-btn:hover {
 
 .contact-Us {
     background-color: var(--primary-green);
-    height: 500px;
+    /* height: 500px; */
     padding-top: 40px;
 }
 
@@ -1244,6 +1244,12 @@ embed {
         color: var(--accent-orange);
     }
 
+    #typeWriter{
+        width: 100%;
+        font-size: 14px;
+        text-wrap: wrap;
+    }
+
     header {
         display: flex;
         justify-content: center;
@@ -1443,6 +1449,7 @@ embed {
 
     .skils .container .allSkils .cards {
         display: flex;
+        flex-wrap: wrap;
         gap: 20px;
         justify-content: center;
         align-items: center;
@@ -1542,9 +1549,10 @@ embed {
         flex-direction: column;
         align-items: center;
         gap: 10px;
-        width: 45%;
+        width: 85%;
         transition: transform 500ms ease-in;
         box-shadow: 2px 2px 15px var(--bg-light);
+        
     }
 
     .projects .container .allProjects .project-card:hover {
@@ -1578,6 +1586,11 @@ embed {
         flex-wrap: wrap;
         justify-content: center;
         gap: 10px;
+    }
+    .projects .container .allProjects .project-card .project-link {
+        /* width: 100%; */
+        font-size: 8px;
+        text-wrap: wrap;
     }
 
     .projects .container .allProjects .project-card .tools .tool {
@@ -1625,13 +1638,14 @@ embed {
         width: 100%;
         border-radius: 22px;
         color: var(--primary-green);
-        padding: 30px;
+        padding: 10px;
     }
 
     .about .container .about-me-body>h2 {
         background-color: #f7f7f762;
-        padding: 15px 30px;
+        padding: 5px 10px;
         border-radius: 22px;
+        font-size: 16px;
         transition: transform 1s ease 0.1s;
         box-shadow: 2px 2px 15px var(--primary-green);
     }
@@ -1645,15 +1659,16 @@ embed {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        gap: 30px;
+        gap: 20px;
+        font-size: 16px;
         text-align: start;
     }
 
     .about .container .about-me-body .bottom div {
         background-color: #f7f7f762;
-        padding: 25px 40px;
+        padding: 15px 10px;
         border-radius: 22px;
-        width: 92%;
+        width: 100%;
         transition: transform 1s ease 0.1s;
         box-shadow: 2px 2px 15px var(--primary-green);
     }
@@ -1679,8 +1694,8 @@ embed {
 
     .contact-Us {
         background-color: var(--primary-green);
-        /* height: 500px; */
-        padding-top: 40px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
     .contact-Us .container h1 {
@@ -1696,13 +1711,13 @@ embed {
     }
 
     .contact-Us .container .left {
-        width: 40%;
+        width: 100%;
     }
 
     .contact-Us .container .left h2 {
         color: var(--bg-light);
         font-size: 30px;
-        margin: 25px auto;
+        margin: 15px auto;
         font-family: var(--font-heading);
         font-style: italic;
         line-height: 25px;
@@ -1739,7 +1754,7 @@ embed {
     }
 
     .contact-Us .container .right {
-        width: 60%;
+        width: 80%;
         display: flex;
         flex-direction: column;
         justify-content: center;
