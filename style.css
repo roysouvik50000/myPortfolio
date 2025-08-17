@@ -188,15 +188,18 @@ nav .primary-btn {
     background-color: var(--bg-light);
     color: var(--primary-green);
     cursor: pointer;
-    font-weight: 400;
+    font-weight: 900;
+    background-color: #F29100;
 }
 
 nav .primary-btn a {
     text-decoration: none;
+    color: white;
+
 }
 
 nav .primary-btn:hover {
-    font-weight: 900;
+    box-shadow: 1px 1px 10px black;
 }
 
 .hero .container .home {
@@ -265,7 +268,7 @@ nav .primary-btn:hover {
     overflow: hidden;
 }
 
-.hero .container .home .right img{
+.hero .container .home .right img {
     max-width: 100%;
 }
 
@@ -454,11 +457,11 @@ nav .primary-btn:hover {
     }
 }
 
-.projects .container .allProjects .project-card .project-link a{
+.projects .container .allProjects .project-card .project-link a {
     color: rgb(255, 255, 255);
 }
 
-.projects .container .allProjects .project-card .project-link p{
+.projects .container .allProjects .project-card .project-link p {
     margin-bottom: 10px;
 }
 
@@ -568,6 +571,7 @@ nav .primary-btn:hover {
     background-color: var(--primary-green);
     /* height: 500px; */
     padding-top: 40px;
+    padding-bottom: 30px;
 }
 
 .contact-Us .container h1 {
@@ -699,7 +703,7 @@ embed {
 
 @media only screen and (max-width: 1024px) {
     .container {
-    padding: 0 40px;
+        padding: 0 40px;
     }
 
 
@@ -834,11 +838,13 @@ embed {
         font-weight: 600;
         cursor: pointer;
     }
+
     .hero .container .home .right {
         max-width: 50%;
         overflow: hidden;
     }
-    .hero .container .home .right img{
+
+    .hero .container .home .right img {
         max-width: 100%;
     }
 
@@ -1208,6 +1214,7 @@ embed {
         font-weight: 600;
         font-size: 16px;
         margin-top: 7px;
+        outline: none;
     }
 
     .contact-Us .container .right label {
@@ -1229,9 +1236,10 @@ embed {
     }
 
 }
+
 @media only screen and (max-width: 500px) {
     .container {
-    padding: 0 10px;
+        padding: 0 10px;
     }
 
 
@@ -1244,7 +1252,7 @@ embed {
         color: var(--accent-orange);
     }
 
-    #typeWriter{
+    #typeWriter {
         width: 100%;
         font-size: 14px;
         text-wrap: wrap;
@@ -1332,7 +1340,7 @@ embed {
         font-weight: 900;
     }
 
-    .hero .container{
+    .hero .container {
         padding: 0%;
     }
 
@@ -1387,6 +1395,7 @@ embed {
         font-weight: 600;
         cursor: pointer;
     }
+
     .hero .container .home .right {
         width: 100%;
         /* overflow: hidden; */
@@ -1396,11 +1405,13 @@ embed {
         z-index: -100;
         padding: 40px;
     }
-    .hero .container .home .right img{
+
+    .hero .container .home .right img {
         max-width: 100%;
         position: absolute;
         right: 0;
     }
+
     .skils {
         background-color: var(--primary-green);
         margin-top: 10px;
@@ -1552,7 +1563,7 @@ embed {
         width: 85%;
         transition: transform 500ms ease-in;
         box-shadow: 2px 2px 15px var(--bg-light);
-        
+
     }
 
     .projects .container .allProjects .project-card:hover {
@@ -1587,6 +1598,7 @@ embed {
         justify-content: center;
         gap: 10px;
     }
+
     .projects .container .allProjects .project-card .project-link {
         /* width: 100%; */
         font-size: 8px;
